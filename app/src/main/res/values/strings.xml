@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MenusApp</string>
+    <string name="menu_title_inicio">Inicio</string>
+    <string name="menu_title_foto">Tomar Foto</string>
+    <string name="menu_title_vista_diaria">Vista diaria</string>
+    <string name="menu_title_vista_semanal">Vista semanal</string>
+    <string name="menu_title_vista_mensual">Vista Mensual</string>
+    <string name="menu_title_modo_off">Modo offline</string>
+    <string name="menu_title_acerca_de">Acerca de</string>
+</resources>

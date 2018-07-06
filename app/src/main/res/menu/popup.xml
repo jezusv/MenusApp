@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_share"
+        android:title="Compartir" />
+    <item android:id="@+id/menu_favority"
+        android:title="Favorito" />
+    <item android:id="@+id/dash_board"
+        android:title="Dashboard Activiy"/>
+    <item android:id="@+id/multi_choice"
+        android:title="MultiChoice Activiy"/>
+    <item android:id="@+id/home_activity"
+        android:title="HomeActivity"/>
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="@string/menu_title_inicio"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_takepicture"
+        android:orderInCategory="101"
+        android:title="@string/menu_title_foto"
+        android:icon="@android:drawable/ic_menu_camera"
+        app:showAsAction="ifRoom" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_day_view"
+            android:orderInCategory="201"
+            android:title="@string/menu_title_vista_diaria"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_week_view"
+            android:checked="true"
+            android:orderInCategory="202"
+            android:title="@string/menu_title_vista_semanal"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/action_month_view"
+            android:orderInCategory="203"
+            android:title="@string/menu_title_vista_mensual"
+            app:showAsAction="ifRoom" />
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/action_toggle"
+            android:orderInCategory="301"
+            android:title="@string/menu_title_modo_off"
+            app:showAsAction="never"/>
+    </group>
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="999"
+        android:title="@string/menu_title_acerca_de"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="never" />
+</menu>
